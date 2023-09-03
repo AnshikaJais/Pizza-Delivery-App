@@ -11,7 +11,7 @@ function CartItem({ item }) {
 
 
     return (
-    <li className="py-3 sm:flex sm:items-center sm:justify-between">
+    <li className="py-3 sm:flex sm:items-center sm:justify-between" key={pizzaId}>
       <p className="mb-1 sm:mb-0">
         {quantity}&times; {name}
       </p>
